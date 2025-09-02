@@ -13,7 +13,7 @@ const initialMovies = [
 
   function App() {
   // sorgente
-  const [sourceMovies] = useState(initialMovies);
+  const [sourceMovies, setSourceMovies] = useState(initialMovies);
 
   // tracciamento filtro selezionato
   const [genreFilter, setGenreFilter] = useState("");
