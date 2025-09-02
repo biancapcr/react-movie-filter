@@ -98,7 +98,7 @@ const initialMovies = [
 
       {/* form per aggiungere un nuovo film */}
       <form onSubmit={addMovie} style={{ marginTop: 15 }}>
-        <h2 style={{ fontSize: 20 }}>Aggiungi film</h2>
+        <h2 className="section-title">Aggiungi film</h2>
         <div style={{ display: "grid", gap: 10, maxWidth: 350 }}>
           <input
             type="text"
