@@ -82,3 +82,21 @@
   border-color: #d1d5db;
   background: #fbfbfb;
 }
+
+.container form button[type="submit"] {
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background: lightgray;    
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.container form button[type="submit"]:hover {
+  background: grey;    
+  border-color: grey;
+  box-shadow: 0 6px 16px rgba(35, 37, 41, 0.25);
+}
